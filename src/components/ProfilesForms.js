@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ProfilesForms() {
+function ProfilesForms({submit}) {
     const [profile, setprofile] = usestate({
         firstname: "",
         lastname: "",
